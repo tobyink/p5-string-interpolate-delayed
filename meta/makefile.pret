@@ -1,0 +1,13 @@
+# This file provides instructions for packaging.
+
+`String-Interpolate-Delayed`
+	perl_version_from m`String::Interpolate::Delayed`;
+	version_from      m`String::Interpolate::Delayed`;
+	readme_from       m`String::Interpolate::Delayed`;
+	requires          p`PadWalker 1.0`;
+	requires          p`PerlX::QuoteOperator 0.04`;
+	requires          p`String::Interpolate 0.3`;
+	requires          p`UNIVERSAL::ref 0.09`;
+	test_requires     p`Test::Fatal 0.007`;
+.
+
