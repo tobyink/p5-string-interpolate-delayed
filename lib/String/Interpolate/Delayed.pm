@@ -5,7 +5,7 @@ use warnings;
 package String::Interpolate::Delayed;
 
 our $AUTHORITY = "cpan:TOBYINK";
-our $VERSION   = "0.001";
+our $VERSION   = "0.002";
 
 our $WORKAROUND = 1;
 
